@@ -12,6 +12,9 @@ class GenerateRandomNumber {
        */
       System.out.println("Random Numbers:");
       System.out.println("***************");
+      System.out.println("***************");
+      System.out.println("***************");
+      System.out.println("***************");
       for (counter = 1; counter <= 5; counter++) {
          System.out.println(rnum.nextInt(200));
       }
