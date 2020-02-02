@@ -14,5 +14,10 @@ pipeline {
               java  GenerateRandomNumber'''
       }
     }
+    stage('Deploy') {
+      steps {
+        sh ''' echo deploying code '''
+      }
+    }
   }
 }
