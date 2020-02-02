@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Source') { // Get code
       steps {
-        // get code from our Git repository
-        git 'https://github.com/tarunchaitu/demo.git'
+          step([$class: 'WsCleanup'])
+          checkout scm
       }
     }
     stage('Compile') { // Compile and do unit testing
