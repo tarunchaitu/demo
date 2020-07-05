@@ -6,6 +6,6 @@ for(a = 1; a<= n ; a++)
 { 
 b = b*a;
 }
-System.out.println("factorial is" +b);
+System.out.println("factorial is -" +b);
 }
 }
